@@ -1,0 +1,10 @@
+@import url(__item/lang__item.css);
+@import url(__label/lang__label.css);
+@import url(__label-text/lang__label-text.css);
+
+.lang {
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #fff;
+  font-weight: normal;
+}

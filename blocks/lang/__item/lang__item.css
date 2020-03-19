@@ -1,0 +1,9 @@
+
+/*Скрываем стандартный вариант отображения элемента radio*/
+.lang__item {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}

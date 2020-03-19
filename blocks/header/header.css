@@ -1,0 +1,14 @@
+header {
+  max-width: 1184px;
+  width: 90.6%;
+  min-height: 52px;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  align-items: center;
+}

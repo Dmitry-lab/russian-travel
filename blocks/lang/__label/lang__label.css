@@ -1,0 +1,9 @@
+.lang__label {
+  cursor: pointer;
+  position: relative;
+  margin-right: 1rem;
+}
+
+.lang__label:last-of-type {
+  margin-right: 0;
+}
