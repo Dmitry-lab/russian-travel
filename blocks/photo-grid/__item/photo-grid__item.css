@@ -1,5 +1,6 @@
-.lead__back-image {
+.photo-grid__item {
   width: 100%;
+
   -o-object-fit: cover;
   object-fit: cover;
 }
