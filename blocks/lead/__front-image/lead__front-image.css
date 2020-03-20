@@ -1,8 +1,7 @@
 .lead__front-image {
   position: absolute;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  top: 21%;
-  left: 0;
+  width: 96%;
+  height: 42%;
+  top: 22.6%;
+  left: 1.8%;
 }

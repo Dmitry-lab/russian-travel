@@ -1,0 +1,11 @@
+@import url(__content-title/video__content-title.css);
+@import url(__content-subtitle/video__content-subtitle.css);
+
+.video {
+  padding-top: 112px;
+  width: 90.6vw;
+  max-width: 984px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #fff;
+}
