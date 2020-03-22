@@ -1,0 +1,12 @@
+.menu__link {
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.71;
+  font-weight: normal;
+  transition: opacity .4s ease-out;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  opacity: .6;
+}

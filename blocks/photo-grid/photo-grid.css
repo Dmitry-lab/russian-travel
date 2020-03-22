@@ -9,5 +9,11 @@
   /*фиксируем поля по 48px для экранов от 1024 до 1280*/
   width: calc(100vw - 96px);
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  gap: 1em;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    gap: .9rem;
+  }
 }

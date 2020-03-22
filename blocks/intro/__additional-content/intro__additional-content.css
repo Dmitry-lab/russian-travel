@@ -6,3 +6,9 @@
   list-style: none;
   font-weight: bold;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__additional-content {
+    margin: 1.5em 0 0;
+  }
+}

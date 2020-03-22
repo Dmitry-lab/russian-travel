@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Проектная работа 2. Путешествия по России.">
     <meta name="author" content="Серпков Дмитрий">
+    <title>Путешествия по России"</title>
     <link rel="stylesheet" href="pages/index.css">
   </head>
   <body>
@@ -63,7 +64,7 @@
           <img class="photo-grid__item" src="images/baikal2.jpg" alt="фото: Байкал продолжение">
           <img class="photo-grid__item" src="images/ergaki.jpg" alt="фото: парк Ергаки">
         </div>
-        <section class="places">
+        <div class="places">
           <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
@@ -147,14 +148,68 @@
               </p>
             </div>
           </article>
-        </section>
+        </div>
         <section class="video">
-          <h2 class="video__content-title">В глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
-          <p class="video__content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
+          <h2 class="content-title">В глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
+          <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
+          <div class="video__container">
+            <div class="video__item video__item_theme_kamchatka">
+              <img class="video__icon" src="images/icon.svg" alt="иконка воспроизведения">
+              <p class="video__duration">6:30</p>
+              <h3 class="video__title">Colors of Kamchatka</h3>
+              <p class="video__subtitle">Director: Pavel Karykhalin</p>
+              <a class="video__link" href="https://vimeo.com/81106671" target="_blank"></a>
+            </div>
+            <div class="video__item video__item_theme_observatory">
+              <img class="video__icon" src="images/icon.svg" alt="иконка воспроизведения">
+              <p class="video__duration">24:45</p>
+              <h3 class="video__title">Обсерватория | Observatory</h3>
+              <p class="video__subtitle">Director: Alexander Khudokon</p>
+              <a class="video__link" href="https://vimeo.com/290675450" target="_blank"></a>
+            </div>
+          </div>
+        </section>
+        <section class="comments">
+          <h2 class="content-title">Фотографы, снимающие Россию</h2>
+          <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
+          <div class="comments__container">
+            <div class="comments__comment">
+              <img class="comments__image" src="images/lyagushkin.jpg" alt="Фотография Виктора Лягушкина">
+              <blockquote class="comments__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</blockquote>
+              <p class="comments__author">Виктор Лягушкин</p>
+            </div>
+            <div class="comments__comment">
+              <img class="comments__image" src="images/hafizov.jpg" alt="Фотография Виктора Лягушкина">
+              <blockquote class="comments__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать,
+                или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»
+              </blockquote>
+              <p class="comments__author">Иван Хафизов</p>
+            </div>
+            <div class="comments__comment">
+              <img class="comments__image" src="images/Maksimishin.jpg" alt="Фотография Сергея Максимишина">
+              <blockquote class="comments__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо,
+                то ты сволочь и всё очернил.»
+              </blockquote>
+              <p class="comments__author">Сергей Максимишин</p>
+            </div>
+          </div>
+        </section>
+        <section class="cover">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
         </section>
       </main>
-      <footer>
-
+      <footer class="footer">
+          <nav class="menu">
+            <ul class="menu__items">
+              <li class="menu__item"><a class="menu__link" href="#">Карты</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Погода</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Расписание</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Календарь</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Путешествия</a></li>
+            </ul>
+          </nav>
+          <p class="footer__copyright">&copy; 2019. Серпков Дмитрий</p>
       </footer>
     </div>
   </body>

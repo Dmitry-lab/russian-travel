@@ -1,4 +1,4 @@
-header {
+.header {
   max-width: 1184px;
   /*фиксируем поля по 48px для экранов от 1024 до 1280*/
   width: calc(100vw - 96px);
@@ -12,4 +12,10 @@ header {
   -ms-flex-pack: justify;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: calc(100vw - 48px);
+  }
 }

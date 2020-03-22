@@ -1,0 +1,7 @@
+.video__container {
+  margin: 0 auto;
+  padding-top: 3.4em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}

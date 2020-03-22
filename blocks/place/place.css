@@ -22,3 +22,10 @@
 .place:last-of-type {
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 2.6em 1.8em;
+    padding-bottom: 90px;
+  }
+}

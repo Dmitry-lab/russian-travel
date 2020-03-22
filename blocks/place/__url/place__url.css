@@ -1,6 +1,6 @@
 .place__url {
   font-size: 1em;
-  line-height: 1.3em;
+  line-height: 1.8;
   color: #fff;
   text-decoration: none;
   border-bottom: 1px solid #fff;
@@ -12,3 +12,5 @@
 .place__url:hover {
   opacity: .6;
 }
+
+

@@ -1,0 +1,6 @@
+.comments__container {
+  margin: 0 auto;
+  padding-top: 4.2em;
+  display: flex;
+  justify-content: space-between;
+}

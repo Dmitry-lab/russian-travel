@@ -1,0 +1,9 @@
+.menu__item {
+  margin-right: calc(1em + 2px);
+}
+
+.menu__item:last-of-type {
+  margin-right: 0;
+}
+
+

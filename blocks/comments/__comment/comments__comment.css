@@ -1,0 +1,8 @@
+.comments__comment {
+  flex-basis: 382px;
+  padding-right: calc(1em + 3px);
+}
+
+.comments__comment:last-of-type {
+  padding-right: 0;
+}

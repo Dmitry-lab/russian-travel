@@ -1,10 +1,16 @@
-@import url(__content-title/video__content-title.css);
-@import url(__content-subtitle/video__content-subtitle.css);
+@import url(__item/video__item.css);
+@import url(__container/video__container.css);
+@import url(__icon/video__icon.css);
+@import url(__duration/video__duration.css);
+@import url(__title/video__title.css);
+@import url(__subtitle/video__sutitle.css);
+@import url(__link/video__link.css);
 
 .video {
   padding-top: 112px;
-  width: 90.6vw;
-  max-width: 984px;
+  max-width: 1184px;
+  /*фиксируем поля по 48px для экранов от 1024 до 1280*/
+  width: calc(100vw - 96px);
   margin: 0 auto;
   font-size: 16px;
   color: #fff;
