@@ -12,3 +12,17 @@
     margin: 1.5em 0 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .intro__additional-content {
+    margin: 2em 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__additional-content {
+    margin: 2.5em 0 0;
+    font-size: .85em;
+    line-height: 1.6;
+  }
+}

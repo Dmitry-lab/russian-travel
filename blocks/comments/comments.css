@@ -10,8 +10,13 @@
   /*фиксируем поля по 48px для экранов от 1024 до 1280*/
   width: calc(100vw - 96px);
   margin: 0 auto;
-  font-size: 16px;
   color: #fff;
+  font-size: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  .comments {
+    padding: 100px 0 65px;
+  }
+}
 

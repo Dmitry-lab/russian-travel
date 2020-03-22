@@ -6,6 +6,15 @@
   margin: 0;
   margin-left: 30px;
   padding-top: .8em;
+  padding-bottom: 1.87em;
   position: relative;
   z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .video__subtitle {
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    margin-left: 24px;
+  }
 }

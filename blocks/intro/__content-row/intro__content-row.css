@@ -6,3 +6,17 @@
   line-height: 172%;
   padding-top: 2.4em;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__content-row {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__content-row {
+    font-size: 1.14em;
+    line-height: 171%;
+    padding-top: 2em;
+  }
+}

@@ -26,6 +26,19 @@
 @media screen and (max-width: 1024px) {
   .place {
     gap: 2.6em 1.8em;
-    padding-bottom: 90px;
+    padding-bottom: 86px;
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    padding-bottom: 76px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    display: block;
   }
 }

@@ -14,8 +14,16 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .header {
     width: calc(100vw - 48px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    min-height: 42px;
+    width: calc(100vw - 32px);
+    padding-top: 16px;
   }
 }

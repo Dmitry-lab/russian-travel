@@ -5,3 +5,11 @@
   background-position: center;
   background-size: cover;
 }
+
+
+@media screen and (max-width: 425px) {
+  .logo {
+    height: 42px;
+    width: 142px;
+  }
+}

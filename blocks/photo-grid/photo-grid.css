@@ -17,3 +17,16 @@
     gap: .9rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    width: calc(100vw - 48px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    padding-top: 68px;
+    width: calc(100vw - 32px);
+  }
+}

@@ -2,6 +2,16 @@
   margin: 0;
   padding-top: 2.62em;
   font-size: .87em;
-  line-height: 1.71em;
+  line-height: 1.5em;
   font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .comments__quote {
+    font-size: 1em;
+    line-height: calc(1.5em - 1px);
+    padding-top: 1em;
+    order: 3;
+    text-align: left;
+  }
 }

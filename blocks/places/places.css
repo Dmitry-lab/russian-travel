@@ -6,9 +6,21 @@
   font-size: 16px;
 }
 
-
 @media screen and (max-width: 1024px) {
   .places {
-    padding-top: 118px;
+    padding-top: 114px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: calc(100vw - 48px);
+    padding-top: 105px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    width: calc(100vw - 32px);
   }
 }

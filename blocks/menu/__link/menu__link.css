@@ -10,3 +10,9 @@
 .menu__link:hover {
   opacity: .6;
 }
+
+@media screen and (max-width: 1024px) {
+  .menu__link {
+    font-size: calc(1.5em - (1024px - 100vw)*.03);
+  }
+}

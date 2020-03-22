@@ -11,3 +11,16 @@
   font-size: 14px;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: calc(100vw - 48px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    width: calc(100vw - 32px);
+    padding-top: 65px;
+  }
+}

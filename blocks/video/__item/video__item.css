@@ -8,6 +8,9 @@
   background-size: cover;
   border-radius: 5px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .video__item::after {
@@ -34,6 +37,12 @@
 
 @media screen and (max-width: 1280px) {
   .video__item {
-    min-height: calc(323px - (1280px - 100vw)*0.14);
+    min-height: calc(323px - (1280px - 100vw)*.14);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .video__item {
+    min-height: calc(288px - (1024px - 100vw)*.34);
   }
 }

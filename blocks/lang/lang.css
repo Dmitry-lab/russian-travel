@@ -8,3 +8,10 @@
   color: #fff;
   font-weight: normal;
 }
+
+@media screen and (max-width: 425px) {
+  .lang {
+    font-size: 1.125rem;
+    line-height: 96.82%;
+  }
+}

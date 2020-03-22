@@ -4,3 +4,15 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__back-image {
+    height: calc(420px - (768px - 100vw)*.61);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__back-image {
+    height: 211px;
+  }
+}

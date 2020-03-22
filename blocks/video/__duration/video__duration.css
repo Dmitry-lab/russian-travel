@@ -13,3 +13,9 @@
     padding-top: calc(14% - 25px);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .video__duration {
+    margin-left: 24px;
+  }
+}

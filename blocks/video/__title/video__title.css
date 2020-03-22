@@ -9,3 +9,16 @@
   position: relative;
   z-index: 1;
 }
+
+@media screen and (max-width: 1024px) {
+  .video__title {
+    font-size: calc(2em - (1024px - 100vw)*.05);
+    line-height: calc(39px - (1024px - 100vw)*.05);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__title {
+    margin-left: 24px;
+  }
+}

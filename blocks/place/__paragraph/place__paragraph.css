@@ -1,11 +1,19 @@
 .place__paragraph {
   font-size: 1em;
   font-weight: normal;
-  line-height: 1.68;
+  line-height: 1.7;
   margin: 0;
   padding-bottom: 1.3em;
 }
 
 .place__paragraph:last-of-type {
   padding-bottom: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: calc(1em - 2px);
+    padding-bottom: 1em;
+  }
 }

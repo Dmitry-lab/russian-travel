@@ -8,9 +8,21 @@
   margin: .4rem 0 0;
 }
 
-
 @media screen and (max-width: 1024px) {
   .lead__caption {
     margin: .6rem 0 0;
+    margin-left: calc((1024px - 100vw)*.09);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    margin: 0.1rem 0 0 1rem;
   }
 }

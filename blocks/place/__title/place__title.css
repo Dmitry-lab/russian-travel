@@ -2,6 +2,14 @@
   margin: 0;
   grid-area: title;
   font-size: 4em;
-  line-height: .9;
+  line-height: 90%;
   font-weight: 900;
+  align-self: end;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    font-size: calc(4em - (1024px - 100vw)*.112);
+    line-height: calc(65px - (1024px - 100vw)*.07);
+  }
 }
