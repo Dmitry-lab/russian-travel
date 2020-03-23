@@ -2,7 +2,7 @@
   font-size: 4.5rem;
   line-height: 1.08;
   font-weight: 900;
-  max-width: 800px;
+  max-width: 90%;
   margin: 0 auto;
   text-align: center;
 }
@@ -14,4 +14,23 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .content-title  {
+    font-size: calc(2.62em - (768px - 100vw)*.03);
+    line-height: 109%;
+  }
+}
 
+@media screen and (max-width: 630px) {
+  .content-title  {
+    font-size: 2rem;
+    max-width: 91%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 3200px) {
+  .content-title  {
+    max-width: 100%;
+  }
+}

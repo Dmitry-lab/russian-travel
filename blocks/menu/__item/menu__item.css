@@ -6,4 +6,14 @@
   margin-right: 0;
 }
 
+@media screen and (max-width: 630px) {
+  .menu__item {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
 
+  .menu__item:last-of-type {
+    margin-bottom: 0;
+  }
+
+}

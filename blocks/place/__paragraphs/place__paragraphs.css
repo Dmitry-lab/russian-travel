@@ -1,3 +1,11 @@
 .place__paragraphs {
   grid-area: paragraphs;
 }
+
+/*breakepoint нужен для лучшего визуального отображения блоков photo-grid и places на промежуточных разрешениях*/
+@media screen and (max-width: 630px) {
+  .place__paragraphs {
+    max-width: 91%;
+    margin: 1em auto 0;
+  }
+}

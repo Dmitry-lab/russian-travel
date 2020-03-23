@@ -12,3 +12,10 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .comments__container {
+    padding-top: 2.5em;
+    max-width: 91%;
+  }
+}

@@ -30,3 +30,9 @@
     width: calc(100vw - 32px);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    gap: .6rem;
+  }
+}

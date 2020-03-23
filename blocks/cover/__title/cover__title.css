@@ -14,3 +14,17 @@
     max-width: 550px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: calc(4.5em - (768px - 100vw)*.12);
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    font-size: 2em;
+    max-width: 80%;
+  }
+}

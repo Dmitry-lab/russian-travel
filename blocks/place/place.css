@@ -33,12 +33,16 @@
 
 @media screen and (max-width: 768px) {
   .place {
+    gap: 2.6em 1.5em;
     padding-bottom: 76px;
+    grid-template-columns: minmax(260px, 340px) minmax(280px, 352px);
   }
 }
 
-@media screen and (max-width: 425px) {
+/*breakepoint нужен для лучшего визуального отображения блоков photo-grid и places на промежуточных разрешениях*/
+@media screen and (max-width: 630px) {
   .place {
     display: block;
+    padding-bottom: 55px;
   }
 }

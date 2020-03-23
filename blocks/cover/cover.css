@@ -49,8 +49,16 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1024;
+    max-width: 1024px;
     width: 100%;
     min-height: calc(561px - (1024px - 100vw)*0.23);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 1024px;
+    width: 100%;
+    min-height: calc(500px - (768px - 100vw)*0.6);
   }
 }

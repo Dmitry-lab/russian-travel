@@ -11,3 +11,11 @@
     padding-top: 2.4em;
   }
 }
+
+/*breakepoint нужен для лучшего визуального отображения блока video на промежуточных разрешениях*/
+@media screen and (max-width: 550px) {
+  .video__container  {
+    flex-direction: column;
+    padding-top: 1.5em;
+  }
+}

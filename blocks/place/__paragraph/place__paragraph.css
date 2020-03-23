@@ -17,3 +17,10 @@
     padding-bottom: 1em;
   }
 }
+
+/*breakepoint нужен для лучшего визуального отображения блоков photo-grid и places на промежуточных разрешениях*/
+@media screen and (max-width: 630px) {
+  .place__paragraph {
+    padding-bottom: 2em;
+  }
+}

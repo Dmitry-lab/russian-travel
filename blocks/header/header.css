@@ -1,6 +1,6 @@
 .header {
   max-width: 1184px;
-  /*фиксируем поля по 48px для экранов от 1024 до 1280*/
+  /*фиксируем отступы для экранов шириной от 1024 до 1280*/
   width: calc(100vw - 96px);
   min-height: 52px;
   margin: 0 auto;
@@ -22,8 +22,8 @@
 
 @media screen and (max-width: 425px) {
   .header {
-    min-height: 42px;
     width: calc(100vw - 32px);
+    min-height: 42px;
     padding-top: 16px;
   }
 }

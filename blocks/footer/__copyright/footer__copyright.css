@@ -5,3 +5,9 @@
   line-height: 20px;
   color: #fff;
 }
+
+@media screen and (max-width: 630px) {
+  .footer__copyright {
+    align-self: flex-start;
+  }
+}

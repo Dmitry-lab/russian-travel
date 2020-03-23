@@ -13,3 +13,20 @@
     line-height: calc(65px - (1024px - 100vw)*.07);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: calc(2.33em - (768px - 100vw)*.03);
+    line-height: 109%;
+    max-width: 97%;
+  }
+}
+
+/*breakepoint нужен для лучшего визуального отображения блоков photo-grid и places на промежуточных разрешениях*/
+@media screen and (max-width: 630px) {
+  .place__title {
+    font-size: 1.77em;
+    max-width: 91%;
+    margin: 0 auto;
+  }
+}

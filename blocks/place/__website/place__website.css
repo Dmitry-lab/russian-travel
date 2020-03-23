@@ -2,3 +2,10 @@
   grid-area: website;
   align-self: end;
 }
+
+/*breakepoint нужен для лучшего визуального отображения блоков photo-grid и places на промежуточных разрешениях*/
+@media screen and (max-width: 630px) {
+  .place__website {
+    display: none;
+  }
+}

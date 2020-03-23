@@ -46,3 +46,20 @@
     min-height: calc(288px - (1024px - 100vw)*.34);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .video__item {
+    min-height: 200px;
+  }
+}
+
+/*breakepoint нужен для лучшего визуального отображения блока video на промежуточных разрешениях*/
+@media screen and (max-width: 550px) {
+  .video__item {
+    margin-bottom: 0.5em;
+  }
+
+  .video__item:last-of-type {
+    margin-bottom: 0;
+  }
+}

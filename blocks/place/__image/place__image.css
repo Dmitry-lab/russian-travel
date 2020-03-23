@@ -4,3 +4,10 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+/*breakepoint нужен для лучшего визуального отображения блоков photo-grid и places на промежуточных разрешениях*/
+@media screen and (max-width: 630px) {
+  .place__image {
+    margin-top: 2em;
+  }
+}

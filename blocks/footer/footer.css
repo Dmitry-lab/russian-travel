@@ -16,3 +16,12 @@
     width: calc(100vw - 48px);
   }
 }
+
+@media screen and (max-width: 630px) {
+  .footer {
+    padding-top: 45px;
+    flex-direction: column;
+    max-width: 91%;
+    width: 100%;
+  }
+}

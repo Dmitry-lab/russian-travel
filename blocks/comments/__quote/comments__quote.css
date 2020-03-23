@@ -1,8 +1,8 @@
 .comments__quote {
   margin: 0;
-  padding-top: 2.62em;
+  padding-top: 3em;
   font-size: .87em;
-  line-height: 1.5em;
+  line-height: 1.7em;
   font-weight: normal;
 }
 
@@ -10,7 +10,7 @@
   .comments__quote {
     font-size: 1em;
     line-height: calc(1.5em - 1px);
-    padding-top: 1em;
+    padding-top: 1.2em;
     order: 3;
     text-align: left;
   }

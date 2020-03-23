@@ -8,10 +8,26 @@
   left: calc(50% - 382px/2);
   bottom: 1.5em;
   z-index: 1;
+  text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
     bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    font-size: calc(1.12em - (768px - 100vw)*.01);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__subtitle {
+    font-size: .87em;
+    max-width: 288px;
+    left: calc(50% - 288px/2);
+    bottom: .3em;
   }
 }
