@@ -1,0 +1,13 @@
+.cover__rect {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  background-color: black;
+  opacity: .3;
+  transition: opacity .4s ease-in;
+}
+
+.cover:hover .cover__rect {
+  opacity: .8;
+}

@@ -1,0 +1,15 @@
+.video__rect {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  z-index: 0;
+  background-color: black;
+  border-radius: 5px;
+  opacity: .3;
+  transition: opacity .4s ease-in;
+}
+
+.video__item:hover .video__rect {
+  opacity: .8;
+}

@@ -1,13 +1,14 @@
 @import url(__title/intro__title.css);
 @import url(__content-row/intro__content-row.css);
 @import url(__additional-content/intro__additional-content.css);
-@import url(__additional-content/_number/intro__additional-content_number.css);
+@import url(__number/intro__number.css);
 
 .intro {
   margin: 0 auto;
   max-width: 985px;
   width: 90.6vw;
   padding-top: 82px;
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 14px;
   color: #fff;
 }

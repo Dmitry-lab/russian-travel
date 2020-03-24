@@ -5,10 +5,3 @@
   line-height: 1.71em;
   font-weight: 900;
 }
-
-@media screen and (max-width: 768px) {
-  .author {
-    padding-top: .6em;
-    order: 2;
-  }
-}

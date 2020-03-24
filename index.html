@@ -6,21 +6,21 @@
     <meta name="description" content="Проектная работа 2. Путешествия по России.">
     <meta name="author" content="Серпков Дмитрий">
     <title>Путешествия по России"</title>
+    <link rel="stylesheet" href="vendor/normalize.css">
     <link rel="stylesheet" href="pages/index.css">
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <div class="logo">
-        </div>
+        <img class="logo" src="images/logo.svg" alt="логотип карта России">
         <div class="lang">
           <label class="lang__label">
             <input class="lang__item" type="radio" name="lang-switch" id="lang-ru" value="ru" checked>
-            <span class="lang__label-text">Ru</span>
+            <a class="lang__link" href="#">Ru</a>
           </label>
           <label class="lang__label">
             <input class="lang__item" type="radio" name="lang-switch" id="lang-en" value="en">
-            <span class="lang__label-text">En</span>
+            <a class="lang__link" href="#">En</a>
           </label>
         </div>
       </header>
@@ -28,14 +28,14 @@
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <div class="lead__image">
+          <figure class="lead__image">
             <img class="lead__back-image" src="images/train-coupe.jpg" alt="купе поезда">
             <img class="lead__front-image" src="images/path.svg" alt="маршрут путешествия">
-          </div>
-          <p class="lead__caption">ваша полка — верхняя</p>
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
         <section class="intro">
-          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <h2 class="intro__title" id="4">Чего мы там не видели?</h2>
           <p class="intro__content-row">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране.
             Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана.
             А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама,
@@ -43,14 +43,14 @@
             достойные вашего отпуска.
           </p>
           <ul class="intro__additional-content">
-            <li>Часовых поясов <span class="intro__additional-content_number">11</span></li>
-            <li>Объектов природного наследия ЮНЕСКО <span class="intro__additional-content_number">12</span></li>
-            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__additional-content_number">16</span></li>
-            <li>Природных заповедников <span class="intro__additional-content_number">105</span></li>
-            <li>Аэропортов <span class="intro__additional-content_number">241</span></li>
+            <li>Часовых поясов <span class="intro__number">11</span></li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="intro__number">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__number">16</span></li>
+            <li>Природных заповедников <span class="intro__number">105</span></li>
+            <li>Аэропортов <span class="intro__number">241</span></li>
           </ul>
         </section>
-        <div class="photo-grid">
+        <section class="photo-grid">
           <img class="photo-grid__item" src="images/train.jpg" alt="фото: вид из окна поезда">
           <img class="photo-grid__item" src="images/atharva-tulsi.jpg" alt="фото Атарвы Тулси">
           <img class="photo-grid__item" src="images/tuman.jpg" alt="фото: туман">
@@ -63,12 +63,12 @@
           <img class="photo-grid__item" src="images/kamchatka2.jpg" alt="фото: природа Камчатки продолжение">
           <img class="photo-grid__item" src="images/baikal2.jpg" alt="фото: Байкал продолжение">
           <img class="photo-grid__item" src="images/ergaki.jpg" alt="фото: парк Ергаки">
-        </div>
+        </section>
         <div class="places">
           <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__url" href="http://park-kosa.ru/" target="_blank">park-kosa.ru</a>
             </div>
             <img class="place__image" src="images/nikita-tikhomirov.jpg" alt="Куршская коса. Фото Никиты Тихомирова">
@@ -85,7 +85,7 @@
           <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__url" href="https://www.nationalgeographic.com/" target="_blank">National Geographic</a>
             </div>
             <img class="place__image" src="images/kolskii.jpg" alt="Фото: Кольский">
@@ -102,7 +102,7 @@
           <article class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__url" href="https://www.facebook.com/" target="_blank">Facebook</a>
             </div>
             <img class="place__image" src="images/altai.jpg" alt="Фото: Алтай">
@@ -118,7 +118,7 @@
           <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__url" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
             </div>
             <img class="place__image" src="images/winter-baikal.jpg" alt="Фото: зимний Байкал">
@@ -135,7 +135,7 @@
           <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__url" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
             </div>
             <img class="place__image" src="images/karelia.jpg" alt="Фото: Карелия">
@@ -153,20 +153,20 @@
           <h2 class="content-title">В глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
           <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
           <div class="video__container">
-            <div class="video__item video__item_theme_kamchatka">
+            <a class="video__item video__item_theme_kamchatka" href="https://vimeo.com/81106671" target="_blank">
+              <div class="video__rect"></div>
               <img class="video__icon" src="images/icon.svg" alt="иконка воспроизведения">
               <p class="video__duration">6:30</p>
               <h3 class="video__title">Colors of Kamchatka</h3>
               <p class="video__subtitle">Director: Pavel Karykhalin</p>
-              <a class="video__link" href="https://vimeo.com/81106671" target="_blank"></a>
-            </div>
-            <div class="video__item video__item_theme_observatory">
+            </a>
+            <a class="video__item video__item_theme_observatory" href="https://vimeo.com/290675450" target="_blank">
+              <div class="video__rect"></div>
               <img class="video__icon" src="images/icon.svg" alt="иконка воспроизведения">
               <p class="video__duration">24:45</p>
               <h3 class="video__title">Обсерватория | Observatory</h3>
               <p class="video__subtitle">Director: Alexander Khudokon</p>
-              <a class="video__link" href="https://vimeo.com/290675450" target="_blank"></a>
-            </div>
+            </a>
           </div>
         </section>
         <section class="comments">
@@ -194,10 +194,11 @@
             </div>
           </div>
         </section>
-        <section class="cover">
+        <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <div class="cover__rect"></div>
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-        </section>
+        </a>
       </main>
       <footer class="footer">
           <nav class="menu">

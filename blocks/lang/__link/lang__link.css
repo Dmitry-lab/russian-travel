@@ -1,0 +1,14 @@
+.lang__link {
+  display: inline-block;
+  transition: opacity .4s ease-in;
+  color: #fff;
+  text-decoration: none;
+}
+
+.lang__link:hover {
+  opacity: .7;
+}
+
+.lang__item:checked+.lang__link {
+  border-bottom: 2px solid #fff;
+}

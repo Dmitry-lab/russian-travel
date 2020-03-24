@@ -11,6 +11,7 @@
   width: calc(100vw - 96px);
   margin: 0 auto;
   color: #fff;
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
 }
 

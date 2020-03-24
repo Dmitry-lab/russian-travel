@@ -2,9 +2,9 @@
   max-width: 1184px;
   /*фиксируем отступы для экранов шириной от 1024 до 1280*/
   width: calc(100vw - 96px);
-  min-height: 52px;
   margin: 0 auto;
   padding-top: 30px;
+  font-family: 'Inter', Arial, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

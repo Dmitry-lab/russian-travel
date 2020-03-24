@@ -1,7 +1,0 @@
-.lang__label-text {
-  display: inline-block;
-}
-
-.lang__item:checked+.lang__label-text {
-  border-bottom: 2px solid #fff;
-}

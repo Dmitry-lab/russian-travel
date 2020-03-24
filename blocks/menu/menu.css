@@ -3,5 +3,6 @@
 @import url(__link/menu__link.css);
 
 .menu {
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
 }

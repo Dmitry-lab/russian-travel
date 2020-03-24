@@ -1,9 +1,7 @@
 .logo {
   height: 52px;
   width: 177px;
-  background-image: url(logo-images/logo.svg);
-  background-position: center;
-  background-size: cover;
+  object-fit: cover;
 }
 
 

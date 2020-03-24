@@ -4,7 +4,7 @@
 @import url(__duration/video__duration.css);
 @import url(__title/video__title.css);
 @import url(__subtitle/video__subtitle.css);
-@import url(__link/video__link.css);
+@import url(__rect/video__rect.css);
 
 .video {
   padding-top: 105px;
@@ -12,6 +12,7 @@
   /*фиксируем поля по 48px для экранов от 1024 до 1280*/
   width: calc(100vw - 96px);
   margin: 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
   color: #fff;
 }
