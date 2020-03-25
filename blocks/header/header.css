@@ -23,7 +23,6 @@
 @media screen and (max-width: 425px) {
   .header {
     width: calc(100vw - 32px);
-    min-height: 42px;
     padding-top: 16px;
   }
 }

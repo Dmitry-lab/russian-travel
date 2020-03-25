@@ -1,14 +1,17 @@
+@import url(_selected/lang__link_selected.css);
+
 .lang__link {
-  display: inline-block;
   transition: opacity .4s ease-in;
   color: #fff;
   text-decoration: none;
+  margin: 0 16px 0 0;
 }
 
 .lang__link:hover {
   opacity: .7;
 }
 
-.lang__item:checked+.lang__link {
-  border-bottom: 2px solid #fff;
+.lang__link:last-of-type {
+  margin: 0;
 }
+
